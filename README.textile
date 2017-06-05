@@ -1,0 +1,25 @@
+h1. ImageGadget
+
+JavaFX image file viewer program to alternate for a desktop image gadget.
+
+h2. How to build
+
+This repository has a source projects of ImageGadget program to build with NetBeans IDE 8.2 and Java SE 8.
+
+h2. Usage
+
+h3. gadget common functions support
+
+* move window by mouse dragging
+* resize window by Ctrl key + mouse wheeling
+* close window by context menu (pop up by right mouse button)
+* save window position and size when closing, load these status on start
+
+h3. Image file folder
+
+In default, ImageGadget use current directory as a top directory of image files.
+To change the directory of image files, use drag and drop manipulation.
+
+
+
+
