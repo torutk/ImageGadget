@@ -20,6 +20,10 @@ h3. Image file folder
 In default, ImageGadget use current directory as a top directory of image files.
 To change the directory of image files, use drag and drop manipulation.
 
+h2. Programming
 
+The explanation of this program is as follows (in Japanese).
+
+http://www.torutk.com/projects/swe/wiki/%E7%99%BA%E8%A1%A8%E3%83%8D%E3%82%BF_JJUG_CCC_2017_Spring%E5%90%91%E3%81%91#ImageGadget-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0
 
 
