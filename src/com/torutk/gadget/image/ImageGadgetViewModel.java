@@ -38,7 +38,7 @@ public class ImageGadgetViewModel {
     
     public Optional<Image> next() {
         if (imageFiles.isEmpty()) {
-            return Optional.empty();
+            return Optional.of(new Image(this.getClass().getResourceAsStream("noimage.png")));
         } else if (imageFiles.size() <= currentIndex) {
             currentIndex = 0;
         }
