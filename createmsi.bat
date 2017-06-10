@@ -6,7 +6,7 @@
 -srcdir dist -srcfiles ImageGadget.jar;lib\GadgetSupport.jar ^
 -appclass com.torutk.gadget.image.ImageGadgetApp ^
 -name "ImageGadget" ^
--BappVersion=0.1.0 ^
+-BappVersion=0.1.1 ^
 -title "Image Gadget" ^
 -vendor Takahashi ^
 -description "Image viewer on desktop"
