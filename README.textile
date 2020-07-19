@@ -4,7 +4,8 @@ JavaFX image file viewer program to alternate for a desktop image gadget.
 
 h2. How to build
 
-This repository has a source projects of ImageGadget program to build with NetBeans IDE 8.2 and Java SE 8.
+This repository has a source projects of ImageGadget program to build with Gradle 6.4+ and Java SE 11+.
+Additionally, to create Windows installer with Java SE 14+ and WiX 3.10+.
 
 h2. Usage
 
