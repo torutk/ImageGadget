@@ -17,12 +17,12 @@ import javafx.stage.Stage;
 public class ImageGadgetApp extends Application {
 
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("ImageGadgetView.fxml"));
         Scene scene = new Scene(root);
         
-        new TinyGadgetSupport(stage, Preferences.userNodeForPackage(this.getClass()));
-        
+        var support = TinyGadgetSupport.ofTaskbarless(primaryStage, Preferences.userNodeForPackage(this.getClass()));
+        var stage = support.getTransparentStage();
         stage.setScene(scene);
         stage.show();
     }
