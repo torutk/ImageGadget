@@ -19,7 +19,7 @@ public class ImageGadgetApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("ImageGadgetView.fxml"));
-        Scene scene = new Scene(root);
+        var scene = new Scene(root);
         
         var support = TinyGadgetSupport.ofTaskbarless(primaryStage, Preferences.userNodeForPackage(this.getClass()));
         var stage = support.getTransparentStage();
