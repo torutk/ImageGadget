@@ -42,7 +42,7 @@ public class ImageGadgetViewModel {
         } else if (imageFiles.size() <= currentIndex) {
             currentIndex = 0;
         }
-        return Optional.ofNullable(loadImage(imageFiles.get(currentIndex++)));
+        return Optional.of(loadImage(imageFiles.get(currentIndex++)));
     }
 
     private Image loadImage(Path path) {
