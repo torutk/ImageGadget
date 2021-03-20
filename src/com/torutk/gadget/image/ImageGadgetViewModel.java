@@ -46,7 +46,7 @@ public class ImageGadgetViewModel {
     }
 
     private Image loadImage(Path path) {
-        return new Image(path.toFile().toURI().toString());
+        return new Image(path.toUri().toString());
     }
     
     private void folderData() {
